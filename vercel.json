@@ -3,5 +3,12 @@
   "outputDirectory": "dist",
   "env": {
     "NODE_ENV": "production"
+  },
+  "functions": {
+    "server-entry.js": {
+      "runtime": "nodejs20.x",
+      "memory": 1024,
+      "maxDuration": 60
+    }
   }
 }
